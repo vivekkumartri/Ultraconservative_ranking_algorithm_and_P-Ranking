@@ -1,5 +1,5 @@
-# Ultraconservative_ranking_algorithm_and_P-Ranking
-\documentclass{article}
+## Ultraconservative ranking algorithm and P-Ranking
+$\documentclass{article}
 
 \title{Ordinal Regression Algorithms for Ranking Learning}
 \author{Your Name}
@@ -108,7 +108,7 @@ In conclusion, this project explored various online algorithms for ordinal regre
 
 The project also provided implementations of the P-Ranking algorithm and the multi-class perceptron algorithm, along with utility functions for data preprocessing and evaluation metrics calculation. Researchers and practitioners can use this project as a reference for understanding and implementing ordinal regression algorithms for ranking learning.
 
-Please refer to the project report for more detailed information on the experiments, results, and future directions.
+Please refer to the project report for more detailed information on the experiments, results, and future directions.$
 
 \section{References}
 
