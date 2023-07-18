@@ -13,9 +13,9 @@ To evaluate the performance of our algorithm, we compare it with seven pre-exist
 The project repository is organized as follows:
 
 - `algorithm.py`
-- `/synthetic_data_implementation.py`
-- `/tmdb_implementation.py`
-- `/each_movie_implementation.py`
+- `synthetic_data_implementation.py`
+- `tmdb_implementation.py`
+- `each_movie_implementation.py`
 - `imdb_implementation.py`
 - `IE506_Course_Project_graph.ipynb`
 - `IE506_Project_Graph_IMDB_TMDB.ipynb`
