@@ -1,4 +1,4 @@
-# Ordinal Regression Algorithms for Ranking Learning
+# Ultraconservative ranking algorithm and P-Ranking
 
 ## Introduction
 
@@ -17,20 +17,10 @@ The project repository is organized as follows:
 - `/tmdb_implementation.py`
 - `/each_movie_implementation.py`
 - `imdb_implementation.py`
-  - ``
-    - `imdb_movie_dataset.csv`
-  - `/tmdb_movie`
-    - `tmdb_movie_dataset.csv`
-- `/models`
-  - `/pranking_algorithm`
-    - `pranking_model.py`
-  - `/multiclass_perceptron`
-    - `multiclass_perceptron_model.py`
-- `/utils`
-  - `data_preprocessing.py`
-  - `evaluation_metrics.py`
+- `IE506_Course_Project_graph.ipynb`
+- `IE506_Project_Graph_IMDB_TMDB.ipynb`
 - `README.md`
-- `requirements.txt`
+- `Vasusena_IE506_CourseProject_EndtermReview_Report.pdf`
 
 The `/data` directory contains the datasets used in the experiments. Each dataset is organized in a separate directory and contains a CSV file with the relevant data. The `/models` directory contains the implementations of the algorithms used in the project. Each algorithm has its own directory, which contains the corresponding model implementation. The `/utils` directory includes utility functions used for data preprocessing and evaluation metrics calculation. The `README.md` file provides an overview of the project, and the `requirements.txt` file lists the dependencies required to run the project.
 
@@ -51,12 +41,19 @@ Please refer to the [project report](https://github.com/vivekkumartri/Ultraconse
 
 ## References
 
-[List the references used in the project]
+1. [18 The Perceptron: A Probabilistic Model for Information Storage and Organization (1958), pages
+183–190. 2020](https://www.academia.edu/60542953/The_perceptron_a_probabilistic_model_for_information_storage_and_organization_in_the_brain)
+2. [Nisarg Chodavadiya. Imbd movie review data. , 2021. Accessed on April 29, 2023.](https://www.kaggle.com/code/nisargchodavadiya/
+movie-review-analytics-sentiment-ratings/notebook)
+3. [Koby Crammer and Yoram Singer. Pranking with ranking. In NIPS, 2001](https://papers.nips.cc/paper_files/paper/2001/hash/5531a5834816222280f20d1ef9e95f69-Abstract.html)
+4. [Koby Crammer and Yoram Singer. Ultraconservative online algorithms for multiclass problems. Jour-
+nal of Machine Learning Research, 3(Jan):951–991, 2003](https://www.jmlr.org/papers/volume3/crammer03a/crammer03a.pdf)
+5. [Ralf Herbrich. Large margin rank boundaries for ordinal regression. Advances in large margin classi-
+fiers, pages 115–132, 2000](https://bibbase.org/network/publication/herbrich-graepel-obermayer-largemarginrankboundariesforordinalregression-1999)
+6. [Kaggle. Tmdb movie review dataset dataset.](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+7. [Paul McJones. Eachmovie Collaborative Filtering Dataset, DEC Systems Research Cen-
+ter](http://www.research.compaq.com/src/eachmovie/)
+8. [Bernard Widrow and Marcian E. Hoff. Adaptive switching circuits. 1988.](https://www-isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf)
 
-1. [Reference 1]
-2. [Reference 2]
-3. [Reference 3]
-4. [Reference 4]
 
-[Include any other relevant sections or information as necessary]
 
