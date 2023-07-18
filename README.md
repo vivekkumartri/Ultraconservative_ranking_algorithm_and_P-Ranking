@@ -12,12 +12,12 @@ To evaluate the performance of our algorithm, we compare it with seven pre-exist
 
 The project repository is organized as follows:
 
-- `/22N0457_IE506_Project_Each_Movie_Dataset.ipynb`
-- `/IE506_CourseProject_Synthetic_Data.ipynb`
-- `/IE506_CourseProject_tmdb.ipynb`
-  - `/each_movie`
-    - `each_movie_dataset.csv`
-  - `/imdb_movie`
+- `algorithm.py`
+- `/synthetic_data_implementation.py`
+- `/tmdb_implementation.py`
+- `/each_movie_implementation.py`
+- `imdb_implementation.py`
+  - ``
     - `imdb_movie_dataset.csv`
   - `/tmdb_movie`
     - `tmdb_movie_dataset.csv`
