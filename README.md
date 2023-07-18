@@ -12,9 +12,9 @@ To evaluate the performance of our algorithm, we compare it with seven pre-exist
 
 The project repository is organized as follows:
 
-- `/data`
-  - `/synthetic_data`
-    - `synthetic_dataset.csv`
+- `/22N0457_IE506_Project_Each_Movie_Dataset.ipynb`
+- `/IE506_CourseProject_Synthetic_Data.ipynb`
+- `/IE506_CourseProject_tmdb.ipynb`
   - `/each_movie`
     - `each_movie_dataset.csv`
   - `/imdb_movie`
@@ -34,8 +34,29 @@ The project repository is organized as follows:
 
 The `/data` directory contains the datasets used in the experiments. Each dataset is organized in a separate directory and contains a CSV file with the relevant data. The `/models` directory contains the implementations of the algorithms used in the project. Each algorithm has its own directory, which contains the corresponding model implementation. The `/utils` directory includes utility functions used for data preprocessing and evaluation metrics calculation. The `README.md` file provides an overview of the project, and the `requirements.txt` file lists the dependencies required to run the project.
 
-## Getting Started
 
-To run the project, follow these steps:
+## Results and Discussion
 
-1. Clone the repository:
+The results obtained from the experiments are presented in detail in the project report. We compare the performance of our algorithm with seven pre-existing algorithms on four different datasets. The evaluation metrics used include ranking loss, accuracy, and precision-recall measures. The findings highlight the strengths and weaknesses of each algorithm on different datasets.
+
+We observed that the P-Ranking algorithm outperformed other algorithms on the synthetic data and Each-Movie data sets. However, the multi-class perceptron algorithm showed superior performance on the IMDB and TMDB movie data sets. We also discuss the limitations of P-Ranking and the importance of considering the distribution of data in high-dimensional space when selecting an appropriate algorithm for ordinal regression.
+
+## Conclusion
+
+In conclusion, this project explored various online algorithms for ordinal regression and evaluated their performance on different datasets. We introduced an alternative approach to ranking learning that directly maintains a totally ordered set via projections. Our findings demonstrated the strengths and weaknesses of different algorithms and emphasized the importance of algorithm selection based on the characteristics of the data.
+
+The project also provided implementations of the P-Ranking algorithm and the multi-class perceptron algorithm, along with utility functions for data preprocessing and evaluation metrics calculation. Researchers and practitioners can use this project as a reference for understanding and implementing ordinal regression algorithms for ranking learning.
+
+Please refer to the [project report](https://github.com/vivekkumartri/Ultraconservative_ranking_algorithm_and_P-Ranking/blob/d535e64e9e4a496d524467f9e3b97ec072a82c2c/Vasusena_IE506_CourseProject_EndtermReview_Report.pdf) for more detailed information on the experiments, results, and future directions.
+
+## References
+
+[List the references used in the project]
+
+1. [Reference 1]
+2. [Reference 2]
+3. [Reference 3]
+4. [Reference 4]
+
+[Include any other relevant sections or information as necessary]
+
